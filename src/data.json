@@ -1,0 +1,677 @@
+[
+  {
+    "correct": "artichoke",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/artichoke.gif",
+    "options": [
+      "heirloom tomato",
+      "broccoli",
+      "grapes",
+      "okra",
+      "artichoke",
+      "sunflower",
+      "pattypan squash",
+      "black rasperries",
+      "artichoke"
+    ]
+  },
+  {
+    "correct": "broccoli",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/broccoli.gif",
+    "options": [
+      "pineapple",
+      "papaya",
+      "persimmon",
+      "bell pepper",
+      "heirloom tomato",
+      "pattypan squash",
+      "spaghetti squash",
+      "broccoli",
+      "tomato"
+    ]
+  },
+  {
+    "correct": "papaya",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/papaya.gif",
+    "options": [
+      "greenbeans",
+      "orange",
+      "snap peas",
+      "kiwi",
+      "grapes",
+      "artichoke",
+      "onion",
+      "heirloom tomato",
+      "papaya"
+    ]
+  },
+  {
+    "correct": "orange",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/orange.gif",
+    "options": [
+      "broccoli",
+      "eggplant",
+      "corn",
+      "brussels",
+      "pumpkin",
+      "orange",
+      "onion",
+      "quince",
+      "kiwi"
+    ]
+  },
+  {
+    "correct": "broccoli",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/broccoli.gif",
+    "options": [
+      "pineapple",
+      "papaya",
+      "watermelon",
+      "bell pepper",
+      "brussels",
+      "pattypan squash",
+      "spaghetti squash",
+      "garlic",
+      "broccoli"
+    ]
+  },
+  {
+    "correct": "pattypan squash",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/pattypan_squash.gif",
+    "options": [
+      "bell pepper",
+      "guava",
+      "spaghetti squash",
+      "prickly pear",
+      "pear",
+      "lettuce",
+      "heirloom tomato",
+      "pattypan squash",
+      "tamarillo"
+    ]
+  },
+  {
+    "correct": "lettuce",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/lettuce.gif",
+    "options": [
+      "spaghetti squash",
+      "broccoli",
+      "garlic",
+      "tomato",
+      "jicama",
+      "pineapple",
+      "black rasperries",
+      "lettuce",
+      "beet"
+    ]
+  },
+  {
+    "correct": "jicama",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/jicama.gif",
+    "options": [
+      "lettuce",
+      "dragon fruit",
+      "pineapple",
+      "cabbage",
+      "eggplant",
+      "passion fruit",
+      "peach",
+      "jicama",
+      "jicama"
+    ]
+  },
+  {
+    "correct": "corn",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/corn.gif",
+    "options": [
+      "jicama",
+      "mushroom",
+      "pear",
+      "artichoke",
+      "grapes",
+      "passion fruit",
+      "black rasperries",
+      "okra",
+      "corn"
+    ]
+  },
+  {
+    "correct": "lychee",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/lychee.gif",
+    "options": [
+      "lychee",
+      "lychee",
+      "greenbeans",
+      "spaghetti squash",
+      "pineapple",
+      "snap peas",
+      "brussels",
+      "broccoli",
+      "beet"
+    ]
+  },
+  {
+    "correct": "jackfruit",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/jackfruit.gif",
+    "options": [
+      "starfruit",
+      "broccoli",
+      "strawberries",
+      "pattypan squash",
+      "heirloom tomato",
+      "kiwi",
+      "guava",
+      "jackfruit",
+      "watermelon"
+    ]
+  },
+  {
+    "correct": "snap peas",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/snap_peas.gif",
+    "options": [
+      "snap peas",
+      "jackfruit",
+      "brussels",
+      "lychee",
+      "jicama",
+      "bell pepper",
+      "tomato",
+      "artichoke",
+      "prickly pear"
+    ]
+  },
+  {
+    "correct": "beet",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/beet.gif",
+    "options": [
+      "tomato",
+      "beet",
+      "corn",
+      "garlic",
+      "orange",
+      "black rasperries",
+      "cucumber",
+      "beet",
+      "cabbage"
+    ]
+  },
+  {
+    "correct": "spaghetti squash",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/spaghetti_squash.gif",
+    "options": [
+      "onion",
+      "heirloom tomato",
+      "strawberries",
+      "jicama",
+      "snap peas",
+      "eggplant",
+      "cucumber",
+      "spaghetti squash",
+      "spaghetti squash"
+    ]
+  },
+  {
+    "correct": "black rasperries",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/black_rasperries.gif",
+    "options": [
+      "broccoli",
+      "snap peas",
+      "beet",
+      "onion",
+      "sunflower",
+      "black rasperries",
+      "persimmon",
+      "eggplant",
+      "peach"
+    ]
+  },
+  {
+    "correct": "starfruit",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/starfruit.gif",
+    "options": [
+      "jicama",
+      "strawberries",
+      "jackfruit",
+      "greenbeans",
+      "mushroom",
+      "starfruit",
+      "persimmon",
+      "prickly pear",
+      "banana"
+    ]
+  },
+  {
+    "correct": "corn",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/corn.gif",
+    "options": [
+      "beet",
+      "jicama",
+      "corn",
+      "pomegranate",
+      "passion fruit",
+      "corn",
+      "grapes",
+      "snap peas",
+      "pear"
+    ]
+  },
+  {
+    "correct": "lettuce",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/lettuce.gif",
+    "options": [
+      "garlic",
+      "onion",
+      "broccoli",
+      "banana",
+      "greenbeans",
+      "pear",
+      "jackfruit",
+      "lettuce",
+      "starfruit"
+    ]
+  },
+  {
+    "correct": "pineapple",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/pineapple.gif",
+    "options": [
+      "banana",
+      "kiwi",
+      "snap peas",
+      "brussels",
+      "passion fruit",
+      "dragon fruit",
+      "artichoke",
+      "pattypan squash",
+      "pineapple"
+    ]
+  },
+  {
+    "correct": "prickly pear",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/prickly_pear.gif",
+    "options": [
+      "sunflower",
+      "dragon fruit",
+      "corn",
+      "eggplant",
+      "lettuce",
+      "brussels",
+      "orange",
+      "onion",
+      "prickly pear"
+    ]
+  },
+  {
+    "correct": "artichoke",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/artichoke.gif",
+    "options": [
+      "starfruit",
+      "pumpkin",
+      "peach",
+      "banana",
+      "papaya",
+      "mushroom",
+      "onion",
+      "tomato",
+      "artichoke"
+    ]
+  },
+  {
+    "correct": "broccoli",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/broccoli.gif",
+    "options": [
+      "tamarillo",
+      "persimmon",
+      "broccoli",
+      "jackfruit",
+      "cucumber",
+      "lychee",
+      "guava",
+      "eggplant",
+      "broccoli"
+    ]
+  },
+  {
+    "correct": "banana",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/banana.gif",
+    "options": [
+      "dragon fruit",
+      "pomegranate",
+      "sunflower",
+      "cucumber",
+      "pattypan squash",
+      "garlic",
+      "peach",
+      "banana",
+      "grapes"
+    ]
+  },
+  {
+    "correct": "spaghetti squash",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/spaghetti_squash.gif",
+    "options": [
+      "bell pepper",
+      "pomegranate",
+      "greenbeans",
+      "sunflower",
+      "pumpkin",
+      "banana",
+      "spaghetti squash",
+      "guava",
+      "jicama"
+    ]
+  },
+  {
+    "correct": "quince",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/quince.gif",
+    "options": [
+      "lychee",
+      "bell pepper",
+      "sunflower",
+      "snap peas",
+      "cabbage",
+      "brussels",
+      "pineapple",
+      "broccoli",
+      "quince"
+    ]
+  },
+  {
+    "correct": "cucumber",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/cucumber.gif",
+    "options": [
+      "persimmon",
+      "watermelon",
+      "snap peas",
+      "strawberries",
+      "orange",
+      "cucumber",
+      "broccoli",
+      "cucumber",
+      "papaya"
+    ]
+  },
+  {
+    "correct": "okra",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/okra.gif",
+    "options": [
+      "broccoli",
+      "persimmon",
+      "okra",
+      "mushroom",
+      "sunflower",
+      "spaghetti squash",
+      "okra",
+      "snap peas",
+      "lettuce"
+    ]
+  },
+  {
+    "correct": "grapes",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/grapes.gif",
+    "options": [
+      "brussels",
+      "peach",
+      "broccoli",
+      "papaya",
+      "grapes",
+      "quince",
+      "grapes",
+      "pumpkin",
+      "tamarillo"
+    ]
+  },
+  {
+    "correct": "passion fruit",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/passion_fruit.gif",
+    "options": [
+      "guava",
+      "quince",
+      "black rasperries",
+      "lychee",
+      "cabbage",
+      "pomegranate",
+      "passion fruit",
+      "prickly pear",
+      "grapes"
+    ]
+  },
+  {
+    "correct": "spaghetti squash",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/spaghetti_squash.gif",
+    "options": [
+      "persimmon",
+      "garlic",
+      "orange",
+      "prickly pear",
+      "eggplant",
+      "pomegranate",
+      "dragon fruit",
+      "spaghetti squash",
+      "jicama"
+    ]
+  },
+  {
+    "correct": "grapes",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/grapes.gif",
+    "options": [
+      "kiwi",
+      "lettuce",
+      "papaya",
+      "okra",
+      "dragon fruit",
+      "lychee",
+      "garlic",
+      "artichoke",
+      "grapes"
+    ]
+  },
+  {
+    "correct": "passion fruit",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/passion_fruit.gif",
+    "options": [
+      "mushroom",
+      "papaya",
+      "snap peas",
+      "tamarillo",
+      "corn",
+      "passion fruit",
+      "spaghetti squash",
+      "pineapple",
+      "starfruit"
+    ]
+  },
+  {
+    "correct": "jicama",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/jicama.gif",
+    "options": [
+      "quince",
+      "beet",
+      "orange",
+      "artichoke",
+      "lettuce",
+      "greenbeans",
+      "guava",
+      "watermelon",
+      "jicama"
+    ]
+  },
+  {
+    "correct": "starfruit",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/starfruit.gif",
+    "options": [
+      "peach",
+      "black rasperries",
+      "watermelon",
+      "eggplant",
+      "dragon fruit",
+      "sunflower",
+      "cucumber",
+      "starfruit",
+      "pomegranate"
+    ]
+  },
+  {
+    "correct": "artichoke",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/artichoke.gif",
+    "options": [
+      "okra",
+      "jackfruit",
+      "broccoli",
+      "peach",
+      "lychee",
+      "jicama",
+      "black rasperries",
+      "grapes",
+      "artichoke"
+    ]
+  },
+  {
+    "correct": "pattypan squash",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/pattypan_squash.gif",
+    "options": [
+      "pear",
+      "tamarillo",
+      "pattypan squash",
+      "watermelon",
+      "jicama",
+      "prickly pear",
+      "pattypan squash",
+      "eggplant",
+      "passion fruit"
+    ]
+  },
+  {
+    "correct": "banana",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/banana.gif",
+    "options": [
+      "jicama",
+      "spaghetti squash",
+      "onion",
+      "pineapple",
+      "banana",
+      "strawberries",
+      "bell pepper",
+      "guava",
+      "prickly pear"
+    ]
+  },
+  {
+    "correct": "quince",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/quince.gif",
+    "options": [
+      "heirloom tomato",
+      "peach",
+      "dragon fruit",
+      "cucumber",
+      "pomegranate",
+      "grapes",
+      "tomato",
+      "jackfruit",
+      "quince"
+    ]
+  },
+  {
+    "correct": "pear",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/pear.gif",
+    "options": [
+      "broccoli",
+      "sunflower",
+      "grapes",
+      "jackfruit",
+      "dragon fruit",
+      "prickly pear",
+      "corn",
+      "pear",
+      "cucumber"
+    ]
+  },
+  {
+    "correct": "lettuce",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/lettuce.gif",
+    "options": [
+      "brussels",
+      "cucumber",
+      "artichoke",
+      "lettuce",
+      "heirloom tomato",
+      "black rasperries",
+      "tamarillo",
+      "kiwi",
+      "lettuce"
+    ]
+  },
+  {
+    "correct": "jackfruit",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/jackfruit.gif",
+    "options": [
+      "pattypan squash",
+      "orange",
+      "pomegranate",
+      "jicama",
+      "persimmon",
+      "jackfruit",
+      "broccoli",
+      "guava",
+      "corn"
+    ]
+  },
+  {
+    "correct": "snap peas",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/snap_peas.gif",
+    "options": [
+      "beet",
+      "garlic",
+      "spaghetti squash",
+      "artichoke",
+      "pomegranate",
+      "bell pepper",
+      "peach",
+      "passion fruit",
+      "snap peas"
+    ]
+  },
+  {
+    "correct": "pineapple",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/pineapple.gif",
+    "options": [
+      "corn",
+      "heirloom tomato",
+      "pomegranate",
+      "persimmon",
+      "bell pepper",
+      "okra",
+      "orange",
+      "lychee",
+      "pineapple"
+    ]
+  },
+  {
+    "correct": "sunflower",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/sunflower.gif",
+    "options": [
+      "jicama",
+      "pear",
+      "mushroom",
+      "kiwi",
+      "cucumber",
+      "watermelon",
+      "greenbeans",
+      "sunflower",
+      "pineapple"
+    ]
+  },
+  {
+    "correct": "tomato",
+    "link": "https://s3.us-east-2.amazonaws.com/sound-game/mris/tomato.gif",
+    "options": [
+      "pomegranate",
+      "pumpkin",
+      "pear",
+      "corn",
+      "passion fruit",
+      "eggplant",
+      "spaghetti squash",
+      "pineapple",
+      "tomato"
+    ]
+  }
+]
