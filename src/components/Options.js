@@ -8,9 +8,10 @@ import { Fab, Grid, Typography } from '@material-ui/core'
 const styles = theme => ({
   button: {
     backgroundColor: 'transparent',
-    border: 'solid white',
+    border: 'solid #e0e0e0',
     marginTop: 5,
-    width: 210
+    width: 210,
+    borderRadius: 12
   },
   option: {
     color: 'white'

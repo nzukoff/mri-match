@@ -26,12 +26,7 @@ class Game extends Component {
 
   chooseGame = () => {
     
-    const possibleGames = this.state.data.filter((g) => {
-      console.log("1 data ", this.state.data); 
-      console.log("2 played g", this.state.playedGames);
-      console.log("3 game", g);
-      return !this.state.playedGames.includes(g)})
-    console.log("POS G", possibleGames)
+    const possibleGames = this.state.data.filter((g) => !this.state.playedGames.includes(g))
     const index = Math.floor(Math.random() * possibleGames.length)
     const game = possibleGames[index]
     this.setState({game})
@@ -40,11 +35,9 @@ class Game extends Component {
   checkGuess = async (e) => {
     const guess = e.target.textContent
     if (guess === this.state.game.correct) {
-      console.log("CORRECT")
       this.setState({score: this.state.score+1})
     }
     else {
-      console.log("WRONG")
     }
     if (this.state.playedGames.length < 9) {
       const gamePlayed = this.state.data.find((d) => d === this.state.game)
@@ -53,7 +46,6 @@ class Game extends Component {
     } else {
       const gamePlayed = this.state.data.find((d) => d === this.state.game)
       await this.setState({playedGames: [...this.state.playedGames, gamePlayed]})
-      console.log("END")
     }
   }
 
@@ -75,7 +67,6 @@ class Game extends Component {
   }
 
   render() {
-    console.log("STATE", this.state)
     return (
       <div className="Game">
         <Grid container>
@@ -83,7 +74,7 @@ class Game extends Component {
         </Grid>
         <Grid container >
           <Grid item xs container justify='space-around'>
-            <Gif game={this.state.game}/>
+            <Gif game={this.state.game} remaining={10 - this.state.playedGames.length}/>
           </Grid>
           <Grid item xs container justify='space-around'>
             <Options game={this.state.game} checkGuess={this.checkGuess} chooseGame={this.chooseGame}/>

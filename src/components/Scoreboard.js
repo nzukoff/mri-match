@@ -5,14 +5,11 @@ import { Typography } from '@material-ui/core'
 
 const styles = theme => ({
   score: {
-    color: 'white'
+    color: '#e0e0e0'
   }
 });
 
 class Scoreboard extends Component {
-  // constructor(props) {
-  //   super(props)
-  // }
   render() {
     const { classes } = this.props
     return (
