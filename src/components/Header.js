@@ -14,6 +14,7 @@ const styles = theme => ({
       },
       grow: {
         flexGrow: 1,
+        color: '#3e3e3e'
     },
 })
 

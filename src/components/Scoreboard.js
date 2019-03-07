@@ -4,7 +4,9 @@ import { withStyles } from '@material-ui/core/styles'
 import { Typography } from '@material-ui/core'
 
 const styles = theme => ({
-
+  score: {
+    color: 'white'
+  }
 });
 
 class Scoreboard extends Component {
@@ -15,7 +17,7 @@ class Scoreboard extends Component {
     const { classes } = this.props
     return (
       <div className={classes.root}>
-        <Typography variant='h2'>
+        <Typography variant='h2' className={classes.score}>
           {`${this.props.score}/10`}
         </Typography>
       </div>

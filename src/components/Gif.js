@@ -3,41 +3,36 @@ import { withStyles } from '@material-ui/core/styles'
 import { Card, CardMedia } from '@material-ui/core/'
 
 const styles = {
+  gif: {
+    paddingLeft: 30
+  },
   imageCard: {
-    // backgroundColor: 'transparent',
-    // boxShadow: 'none',
-    maxWidth: 300
+    maxWidth: 'inherit',
+    backgroundColor: 'transparent',
+    boxShadow: 'none'
   },
   image: {
-    height: 'auto',
-    width: 'auto',
-    maxWidth: 300
-    // maxHeight: 150,
+    // maxWidth: 'inherit'
   },
 };
 
 export const Gif = (props) => {
-  // constructor(props) {
-  //   super(props)
-  // }
-  // render() {
-    const {classes} = props
-    return (
-      <div className="Gif">
-        {props.game ? 
-        <Card 
-          className={classes.imageCard} 
-          >
-          <CardMedia
-            className={classes.image}
-            image={props.game.link}
-            component='img'
-          />
-        </Card> 
-        : null }
-      </div>
-    );
-  // }
+  const {classes} = props
+  return (
+    <div className={classes.gif}>
+      {props.game ? 
+      <Card 
+        className={classes.imageCard} 
+        >
+        <CardMedia
+          className={classes.image}
+          image={props.game.link}
+          component='img'
+        />
+      </Card> 
+      : null }
+    </div>
+  );
 }
 
 export default withStyles(styles)(Gif)
