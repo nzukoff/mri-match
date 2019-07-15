@@ -6,7 +6,7 @@ import { withStyles } from '@material-ui/core/styles'
 const styles = theme => ({
     root: {
         flexGrow: 1,
-        marginBottom: theme.spacing.unit * 4,
+        marginBottom: theme.spacing(4),
       },
       bar: {
         backgroundColor: '#e0e0e0',  
