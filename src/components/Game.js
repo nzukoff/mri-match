@@ -16,7 +16,8 @@ class Game extends Component {
       data: sampledData,
       game: null,
       score: 0,
-      playedGames: []
+      playedGames: [],
+      correct: null
     }
   }
 
@@ -35,9 +36,10 @@ class Game extends Component {
   checkGuess = async (e) => {
     const guess = e.target.textContent
     if (guess === this.state.game.correct) {
-      this.setState({score: this.state.score+1})
+      this.setState({score: this.state.score+1, correct: true})
     }
     else {
+      this.setState({correct: false})
     }
     if (this.state.playedGames.length < 9) {
       const gamePlayed = this.state.data.find((d) => d === this.state.game)
@@ -84,12 +86,12 @@ class Game extends Component {
               onClose={() => this.reset()}
               aria-labelledby="responsive-dialog-title"
             >
-              <DialogTitle id="responsive-dialog-title">{"GAME OVER"}</DialogTitle>
+              <DialogTitle id="responsive-dialog-title">{`Nice! Your score was ${this.state.score}/10`}</DialogTitle>
             </Dialog>
             : null}
           </Grid>
           <Grid item xs container justify='space-around'>
-            <Scoreboard score={this.state.score}/>
+            <Scoreboard score={this.state.score} correct={this.state.correct}/>
           </Grid>
         </Grid>
         
