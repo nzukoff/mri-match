@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for eachfile in ./gifs/*.gif
+  do
+    convert "$eachfile" -coalesce -resize 345x -deconstruct  "./gifsnew/$(basename $eachfile)"
+done
+
+# run with /bin/bash convert_gifs

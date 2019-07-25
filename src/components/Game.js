@@ -5,6 +5,20 @@ import Scoreboard from './Scoreboard'
 import Header from './Header'
 
 import { Grid, Dialog, DialogTitle } from '@material-ui/core/'
+import { withStyles } from '@material-ui/core/styles'
+
+
+const styles = theme => ({
+  gif: {
+    marginBottom: theme.spacing(4)
+  },
+  options: {
+    marginBottom: theme.spacing(4)
+  },
+  scoreboard: {
+    marginBottom: theme.spacing(4)
+  }
+});
 
 class Game extends Component {
   constructor(props) {
@@ -69,16 +83,17 @@ class Game extends Component {
   }
 
   render() {
+    const { classes } = this.props
     return (
       <div className="Game">
         <Grid container>
           <Header reset={this.reset}/>
         </Grid>
         <Grid container >
-          <Grid item xs={12} md={4} container justify='space-around'>
+          <Grid className={classes.gif} item xs={12} md={4} container justify='space-around'>
             <Gif game={this.state.game} remaining={10 - this.state.playedGames.length}/>
           </Grid>
-          <Grid item xs={12} md={4} container justify='space-around'>
+          <Grid item className={classes.options} xs={12} md={4} container justify='space-around'>
             <Options game={this.state.game} checkGuess={this.checkGuess} chooseGame={this.chooseGame}/>
             {this.state.playedGames.length === 10 ? 
             <Dialog
@@ -90,7 +105,7 @@ class Game extends Component {
             </Dialog>
             : null}
           </Grid>
-          <Grid item xs={12} md={4} container justify='space-around'>
+          <Grid className={classes.scoreboard} item xs={12} md={4} container justify='space-around' >
             <Scoreboard score={this.state.score} correct={this.state.correct}/>
           </Grid>
         </Grid>
@@ -100,4 +115,4 @@ class Game extends Component {
   }
 }
 
-export default Game;
+export default withStyles(styles)(Game)

@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import { withStyles } from '@material-ui/core/styles'
-import { Typography } from '@material-ui/core'
-import Check from '@material-ui/icons/Check'
-import Close from '@material-ui/icons/Close'
+import { Typography, Grid } from '@material-ui/core'
+import Mood from '@material-ui/icons/Mood'
+import MoodBad from '@material-ui/icons/MoodBad'
 
 
 const styles = theme => ({
@@ -11,15 +11,13 @@ const styles = theme => ({
   },
   correct: {
     color: '#00ff00',
-    fontSize: 100,
-    paddingTop: 25,
-    paddingLeft: 10
+    fontSize: 54,
+    paddingLeft: 35
   },
   wrong: {
     color: '#ff0000',
-    fontSize: 100,
-    paddingTop: 25,
-    paddingLeft: 10
+    fontSize: 54,
+    paddingLeft: 35
   }
 });
 
@@ -28,12 +26,18 @@ class Scoreboard extends Component {
     const { classes } = this.props
     return (
       <div className={classes.root}>
-        <Typography variant='h2' >
-          {`${this.props.score}/10`}
-        </Typography>
-        <Typography variant='h2' >
-          {this.props.correct === true ? <Check className={classes.correct}/> : this.props.correct === false ? <Close className={classes.wrong}/> : ''}
-        </Typography>
+        <Grid container >
+          <Grid item xs={6} >
+            <Typography variant='h2' >
+              {`${this.props.score}/10`}
+            </Typography>
+          </Grid>
+          <Grid item xs={6} >
+            <Typography variant='h2' >
+              {this.props.correct === true ? <Mood className={classes.correct}/> : this.props.correct === false ? <MoodBad className={classes.wrong}/> : <div></div>}
+            </Typography>
+          </Grid>
+        </Grid>
       </div>
     );
   }

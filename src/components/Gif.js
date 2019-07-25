@@ -4,7 +4,6 @@ import { Card, CardMedia } from '@material-ui/core/'
 
 const styles = {
   gif: {
-    paddingLeft: 30
   },
   imageCard: {
     maxWidth: 400,
@@ -12,7 +11,7 @@ const styles = {
     boxShadow: 'none'
   },
   image: {
-    // maxWidth: 'inherit'
+    width: 320
   },
   remaining: { 
     width: 20,
